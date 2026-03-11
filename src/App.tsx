@@ -120,7 +120,7 @@ END:VCARD`;
             transition={{ delay: 0.2, type: 'spring' }}
             className="relative inline-block"
           >
-            <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-white/10 shadow-xl mx-auto mb-4 sm:mb-6 bg-white/5 flex items-center justify-center">
+            <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-white/10 shadow-xl mx-auto mb-4 sm:mb-6 bg-white/5 flex items-center justify-center">
               {/* Tentando carregar a imagem, se falhar mostra um ícone */}
               <img 
                 src={`${import.meta.env.BASE_URL}luanPedro.webp`} 
