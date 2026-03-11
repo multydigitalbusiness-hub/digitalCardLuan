@@ -123,7 +123,7 @@ END:VCARD`;
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-white/10 shadow-xl mx-auto mb-4 sm:mb-6 bg-white/5 flex items-center justify-center">
               {/* Tentando carregar a imagem, se falhar mostra um ícone */}
               <img 
-                src="/luanPedro.webp" 
+                src={`${import.meta.env.BASE_URL}luanPedro.webp`} 
                 alt="Luan Pedro" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -163,7 +163,7 @@ END:VCARD`;
             &copy; 2026 Desenvolvido por
           </p>
           <img 
-            src="/logoMulty.webp" 
+            src={`${import.meta.env.BASE_URL}logoMulty.webp`} 
             alt="Multy Digital" 
             className="h-6 opacity-60 hover:opacity-100 transition-opacity"
             referrerPolicy="no-referrer"
